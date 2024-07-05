@@ -7,14 +7,16 @@ body {
   margin: auto;
   max-width: 800px;
   margin-top: 20px;
-}
 
-.container_header{ background-color: aquamarine;
+
+&__header{ background-color: aquamarine;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.container_header{background-color: aquamarine; 
+&__footer{background-color: aquamarine; 
   display: flex;
   align-items: center;
   justify-content: center; }
+
+}
